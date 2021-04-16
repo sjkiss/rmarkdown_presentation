@@ -1,0 +1,40 @@
+---
+title: "Test"
+author: "Test"
+date: "14/04/2021"
+output: 
+    powerpoint_presentation: 
+        reference_doc: wlu_slide_template.pptx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# My title
+
+This is my amazing presentation
+
+# Second slide
+
+
+:::::::::::::: {.columns}
+
+::: {.column}
+-  Some Content
+:::
+
+::: {.column}
+
+```{r}
+plot(mtcars$mpg)
+
+```
+
+:::
+::::::::::::::
+
+
+
+
+# Second Slide
